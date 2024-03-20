@@ -1,0 +1,15 @@
+pipeline {
+	agent any
+	stages {
+		stage('master'){
+			steps {
+			sh 'echo "This is a Master Branch"'
+			}}
+		stage('sprint1'){
+			steps{
+			sh 'echo "This SPrint1 APP"'
+			}}
+		stage("developement"){
+			steps{
+			sh 'echo "This deploying APP"'
+			}}}}
