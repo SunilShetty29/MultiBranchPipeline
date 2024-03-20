@@ -7,7 +7,7 @@ pipeline {
 			}}
 		stage('sprint1'){
 			steps{
-			sh 'echo "This SPrint1 APP"'
+			sh 'echo "This SPrint1 Branch"'
 			}}
 		stage("developement"){
 			steps{
